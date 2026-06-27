@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    padding: 40px;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}

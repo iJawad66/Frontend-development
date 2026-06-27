@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="gallery">
+    <img src="https://picsum.photos/id/1015/300/200" onclick="openImage(this.src)">
+    <img src="https://picsum.photos/id/1016/300/200" onclick="openImage(this.src)">
+    <img src="https://picsum.photos/id/1018/300/200" onclick="openImage(this.src)">
+    <img src="https://picsum.photos/id/1020/300/200" onclick="openImage(this.src)">
+</div>
+
+<div class="lightbox" id="lightbox">
+    <span onclick="closeImage()">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
